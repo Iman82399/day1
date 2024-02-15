@@ -7,10 +7,35 @@
 }
 
 .article{
-    height: 50vh;
+    height: fit-content;
     background-color: rgba(25, 25, 211, 0.438);
     color: rgb(184, 46, 46);
     padding: 10px;
     margin-top: 10px;
     border-radius: 20px 20px 2px 2px;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.box{
+    height: 25px;
+    width: fit-content;
+    padding: 2px 3px;
+}
+
+.colorChange{
+    background-color: black;
+}
+
+.lightblue{
+    background-color: lightblue;
+}
+
+.lightred{
+    background-color: lightcoral;
 }
