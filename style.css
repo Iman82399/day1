@@ -1,0 +1,16 @@
+#nav{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1px 1px 20px 20px;
+    padding: 10px;
+}
+
+.article{
+    height: 50vh;
+    background-color: rgba(25, 25, 211, 0.438);
+    color: rgb(184, 46, 46);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px 20px 2px 2px;
+}
